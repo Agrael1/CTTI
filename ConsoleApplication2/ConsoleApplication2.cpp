@@ -27,6 +27,7 @@ int main()
     assert(!y->isDerivedFrom("class Type3"));
     assert(y->isDerivedFrom("class Type2<class Type3>"));
     
+    assert(!y->isDerivedFrom<class A>());
 
     std::cout << "all done";
 }
