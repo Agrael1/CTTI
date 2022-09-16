@@ -3,7 +3,7 @@
 #include "Unknown.h"
 
 
-class Type1 : public ver::implements <Type1, Unknown>
+class Type1 : public ver::implements <Type1>
 {
 	static inline ver::add_factory< Type1 > a;
 };
